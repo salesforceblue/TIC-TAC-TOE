@@ -1,4 +1,4 @@
-# Real Time Multiplayer TIC-TAC-TOE
+# Real-Time Multi-Player TIC-TAC-TOE
 
 Steps:
 - Install this package in your dev org
