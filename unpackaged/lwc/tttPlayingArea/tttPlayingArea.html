@@ -1,0 +1,17 @@
+<template>
+    <div class="playing-area-wrapper">
+        <c-ttt-user-info user-id={playingWithUserId} is-game-won={isPlayingWithWon}></c-ttt-user-info>
+        <div class="ttt-board-wrapper">
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileZero"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileOne"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileTwo"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileThree"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileFour"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileFive"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileSix"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileSeven"></div>
+            <div class="ttt-board-tile" onclick={handleTileClick} data-tileid="tileEight"></div>
+        </div>
+        <c-ttt-user-info user-id={loggedInUserId} is-game-won={isLoggedInUserWon}></c-ttt-user-info>
+    </div>
+</template>

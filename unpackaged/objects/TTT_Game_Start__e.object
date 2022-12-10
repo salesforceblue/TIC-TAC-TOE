@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This will notify for a started game to the game lobby</description>
+    <eventType>HighVolume</eventType>
+    <fields>
+        <fullName>TTT_Game_Info__c</fullName>
+        <description>This will store the information of games to start</description>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Game Info</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>TTT Game Start</label>
+    <pluralLabel>TTT Game Start</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

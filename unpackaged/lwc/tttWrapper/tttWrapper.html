@@ -1,0 +1,9 @@
+<template>
+        <template if:false={isGameOn}>
+            <c-ttt-lobby onstartgame={handleStartGame}></c-ttt-lobby>
+        </template>
+    
+        <template if:true={isGameOn}>
+            <c-ttt-playing-area logged-in-user-id={loggedInPlayerId} playing-with-user-id={playingWithUserId} game-id={gameId} playing-as={playingAs}></c-ttt-playing-area>
+        </template>
+</template>

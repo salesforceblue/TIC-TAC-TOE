@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>TTT_GameAreaService</members>
+        <members>TTT_GameAreaServiceHelper</members>
+        <members>TTT_GameAreaTriggerHandler</members>
+        <members>TTT_GameLobbyService</members>
+        <members>TTT_GameLobbyTriggerHandler</members>
+        <members>TTT_PlayingAreaController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TTT_GameAreaTrigger</members>
+        <members>TTT_GameLobbyTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>TTT_Game_Area__c</members>
+        <members>TTT_Game_Lobby__c</members>
+        <members>TTT_Game_Moves__e</members>
+        <members>TTT_Game_Start__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>tttLobby</members>
+        <members>tttPlayingArea</members>
+        <members>tttUserInfo</members>
+        <members>tttWrapper</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>55.0</version>
+</Package>
