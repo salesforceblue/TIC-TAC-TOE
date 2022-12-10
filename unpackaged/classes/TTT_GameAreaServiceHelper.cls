@@ -8,8 +8,6 @@ public with sharing class TTT_GameAreaServiceHelper {
     
     /* @Desc:  This method will publish the required platform event to start the game */
     public static String preparePayload(List<TTT_Game_Area__c> recordsList) {
-        // Eventbus.publish(sobject)
-
         Map<String, String> mapOfGameInfo = new Map<String,String>();
         Map<String, Map<String,String>> mapOfUserIdToGameInfo = new Map<String, Map<String, String>>();
 
@@ -35,7 +33,6 @@ public with sharing class TTT_GameAreaServiceHelper {
 
     /* @Desc:  This method will publish the required platform event to start the game */
     public static void publishCallToStartGame(String payload) {
-        // Eventbus.publish(sobject)
         Eventbus.publish(new TTT_Game_Start__e(
             TTT_Game_Info__c = payload
         ));
