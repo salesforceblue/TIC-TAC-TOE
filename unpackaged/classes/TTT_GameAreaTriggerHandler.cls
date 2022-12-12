@@ -6,7 +6,6 @@
 public with sharing class TTT_GameAreaTriggerHandler {
     /* @Desc: After insert handler*/
     public static void afterInsert(List<TTT_Game_Area__c> recordsList, Map<ID, TTT_Game_Area__c> recordsMap) {
-        System.debug('recordsMap >> ' + recordsMap);
         TTT_GameAreaService.startGame(recordsList);
     }
 }
